@@ -39,6 +39,6 @@ Write a function named holidayCountdown. This function should accept two paramet
 */
     function holidayCountdown(days, holiday) {
         console.log(days, holiday) // For testing on console
-        return `It's ${days} days until ${holiday}!`
+        return `It's ${days} days until {holiday}!`
     }
      holidayCountdown('28', Flag Day')
