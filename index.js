@@ -16,3 +16,13 @@ function happyHolidays() {
         return `Happy holidays, ${name}!`
     }
   happyHolidaysTo('Jett')
+  
+/*
+Write a function named happyHolidayTo. This function should accept two parameters, the holiday you want to wish them well for, and the name of the person you're wishing well. This function should return the string `Happy ${holiday}, ${name}!`
+*/
+    function happyHolidayTo(holiday, name) {
+        console.log(holiday, name) // For testing on console
+        return `Happy ${holiday}, ${name}!`
+    }
+     happyHolidaysTo('Flag Day', 'Jett')
+  
