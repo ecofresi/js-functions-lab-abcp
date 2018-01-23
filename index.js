@@ -38,9 +38,8 @@ function happyHolidays() {
 4.
 Write a function named holidayCountdown. This function should accept two parameters, the holiday name and number of days till that holiday. The function should return the string `It's ${days} days until ${holiday}!`
 */
-    function holidayCountdown(days, holiday) {
-        console.log(days, holiday) 
-        return `It's ${days} days until ${holiday}!`
+ function holidayCountdown(days, holiday) {
+    console.log(days, holiday) 
+    return `It\'s ${days} days until ${holiday}!`
     }
-     holidayCountdown ('28', 'Flag Day')
-   
+     holidayCountdown('28', 'Flag Day')
